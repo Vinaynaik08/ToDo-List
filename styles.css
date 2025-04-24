@@ -1,0 +1,106 @@
+.todos-bg-container {
+    background-color: #f9fbfe;
+    height: 100vh;
+  }
+  .todos-heading {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .create-task-heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .create-task-heading-subpart {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .todo-items-heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .todo-items-heading-subpart {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .todo-user-input {
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #e4e7eb;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+
+  .add-todo-button {
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .label-container{
+    background-color: #e6f6ff;
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #096f92;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 25px;
+    margin-bottom: 15px;
+  }
+
+  .checkbox-label {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+  }
+
+  .checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 16px;
+    margin-right: 12px;
+  }
+
+  .delete-icon-container {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    width: 40px;
+    border-radius: 25px;
+    background-color: #096f92;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .checked{
+    text-decoration: line-through;
+  }
